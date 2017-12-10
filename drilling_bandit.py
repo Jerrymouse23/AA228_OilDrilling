@@ -3,9 +3,7 @@ import random
 
 num_spaces = int(input("How many grid spaces?"))
 num_trials = int(input("How many trials?"))
-total_eps_best_diff = 0.0
 total_strategy_dict = ["eps_greedy", "softmax", "ucb", "bayesian"]
-
 
 def main():
     ##randomly generates probability array
